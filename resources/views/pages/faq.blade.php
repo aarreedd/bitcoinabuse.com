@@ -109,6 +109,8 @@
 			Hopefully by sharing this information fewer people will fall for these scams.
 		</p>
 
+		@include('ads.sponsored-faq')
+
 		<h4 class="mt-5"> How is BitcoinAbuse.com supported? </h4>
 
 		<p>
@@ -121,7 +123,6 @@
 			<b>You can support this site by <a target=_blank href="https://commerce.coinbase.com/checkout/d4e5977f-548e-48f1-b14f-66d6ba8fe93b"> donating bitcoin</a>.</b>
 		</p>
 
-		@include('ads.sponsored-faq')
 
 		<hr>
 		<p>Questions or comments? <a href="/contact" target=_blank>Contact us</a></p>
